@@ -25,5 +25,10 @@ $(document).ready(function() {
         $('#show_hide_password2 i').addClass( "bi bi-eye" );
     }
   });
-
+  
+  var el = document.getElementById("wrapper");
+  var toggleButton = document.getElementById("menu-toggle");
+  toggleButton.onclick = function () {
+      el.classList.toggle("toggled");
+  };
 });
