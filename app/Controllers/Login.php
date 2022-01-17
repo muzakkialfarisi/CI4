@@ -66,7 +66,7 @@ class Login extends BaseController
                     password has been generated for you. To reset your password, click the
                     following button and follow the instructions with in 3mins.
                     <br><br>
-                    <a href="http://localhost:8080/index.php/ForgotPassword/reset/'. $userdata['token'] .'" style="color:white; padding:3px; background: #4568DC; background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); background: linear-gradient(to right, #B06AB3, #4568DC);">CLICK ME</a>';
+                    <a href="http://localhost:8080/login/reset/'. $userdata['token'] .'" style="color:white; padding:3px; background: #4568DC; background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); background: linear-gradient(to right, #B06AB3, #4568DC);">CLICK ME</a>';
         
                     $email = \Config\Services::email(); 
                     $email->setFrom('muzakkiahmad10071999@gmail.com', 'Muzakki Ahmad Al Farisi');
