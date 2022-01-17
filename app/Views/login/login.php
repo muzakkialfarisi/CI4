@@ -25,7 +25,7 @@
                     </div>
 
                     
-                        <p class="small text-end mb-5"><a class="text-dark-50" href="\forgotpassword">Forgot password?</a></p>
+                        <p class="small text-end mb-5"><a class="text-dark-50" href="login\forgotPassword">Forgot password?</a></p>
 
                     <div class="d-grid gap-2">
                         <button class="btn btn-dark btn-lg" id="grad" type="submit">Login</button>
